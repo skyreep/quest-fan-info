@@ -1,0 +1,82 @@
+body {
+  background: rgb(61,34,74);
+  background: radial-gradient(circle, rgba(61,34,74,1) 0%, rgba(34,12,31,1) 100%);
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif !important;
+}
+.jumbotron {
+  color: white;
+  background-image: url("quest-mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 0;
+}
+#countdown {
+  padding-top: 5%;
+  font-size: 2rem;
+}
+.subscribe {
+  margin-top: 50%;
+}
+@media only screen and (orientation: landscape)  {
+  .jumbotron {
+    background-image: url("quest.png");
+    padding-top: 12%;
+  }
+  #countdown {
+    padding-top: 8%;
+    font-size: 5rem;
+  }
+  .subscribe {
+    margin-top: 0;
+  }
+}
+
+.pagination {
+  padding-top: 7%;
+  margin-bottom: 7%;
+}
+
+.pagination>li>a {
+  background-color: #343a40 !important;
+  border-color: gray !important;
+  color: white !important;
+}
+.pagination>li.active>a {
+  background-color: purple !important;
+  border-color: gray !important;
+}
+
+h4 {
+  padding-top: 10%;
+}
+
+.modal {
+  color: black;
+  text-align: left;
+}
+
+.index-btn {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.quest-info {
+  padding-bottom: 15%;
+}
+
+h1, h2, h3, h4, h5, h6, button, .logo, #countdown {
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+.nav-arrow {
+  color: white;
+  transition-duration: 1s;
+}
+.nav-arrow:hover {
+  font-size: 2.5rem;
+}
