@@ -19,7 +19,7 @@ body {
   font-size: 2rem;
 }
 .subscribe {
-  margin-top: 50%;
+  margin-top: 60%;
 }
 @media only screen and (orientation: landscape)  {
   .jumbotron {
@@ -64,11 +64,7 @@ h4 {
   padding-bottom: 5%;
 }
 
-.quest-info {
-  padding-bottom: 15%;
-}
-
-h1, h2, h3, h4, h5, h6, button, .logo, #countdown {
+h1, h2, h3, h4, h5, h6, button, .navbar-brand, #countdown {
   font-family: 'Ubuntu', sans-serif !important;
   font-weight: 700 !important;
 }
@@ -81,6 +77,10 @@ h1, h2, h3, h4, h5, h6, button, .logo, #countdown {
   font-size: 2.5rem;
 }
 
+footer {
+  padding-top: 5rem;
+}
+
 .footer-icon {
   padding: 1.5rem;
   margin-bottom: 5rem;
@@ -90,3 +90,16 @@ h1, h2, h3, h4, h5, h6, button, .logo, #countdown {
   color: purple;
 }
 
+.modal-content {
+  background-color: #212529 !important;
+  color: white !important;
+}
+
+.close {
+  color: white !important;
+}
+
+.subtitle {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
