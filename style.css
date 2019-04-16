@@ -80,3 +80,13 @@ h1, h2, h3, h4, h5, h6, button, .logo, #countdown {
 .nav-arrow:hover {
   font-size: 2.5rem;
 }
+
+.footer-icon {
+  padding: 1.5rem;
+  margin-bottom: 5rem;
+  color: white;
+}
+.footer-icon:hover {
+  color: purple;
+}
+
