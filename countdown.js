@@ -1,6 +1,7 @@
 
 // Set the date we're counting down to
-var countDownDate = new Date("Apr 30, 2019 10:00:00").getTime();
+// unix time of F8 Conference
+var countDownDate = 1556643600000;
 
 // Update the count down every 1 second
 var x = setInterval(function() {
