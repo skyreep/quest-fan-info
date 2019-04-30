@@ -1,7 +1,8 @@
 
 // Set the date we're counting down to
 // unix time of F8 Conference
-var countDownDate = 1556643600000;
+var countDownDate = 1558411200000;
+
 
 // Update the count down every 1 second
 var x = setInterval(function() {
