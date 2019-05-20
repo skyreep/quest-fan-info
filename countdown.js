@@ -1,10 +1,9 @@
 
 // Set the date we're counting down to
 // unix time of F8 Conference
-// var countDownDate = 1558411200000;
+var countDownDate = 1558411200000;
 
-// Revision for release date
-var countDownDate = new Date("May 21, 2019").getTime();
+
 
 
 // Update the count down every 1 second
