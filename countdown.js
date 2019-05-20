@@ -3,7 +3,7 @@
 // unix time of F8 Conference
 // var countDownDate = 1558411200000;
 
-//Revision for release date
+// Revision for release date
 var countDownDate = new Date("May 21, 2019").getTime();
 
 
